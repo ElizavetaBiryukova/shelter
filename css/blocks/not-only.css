@@ -1,0 +1,90 @@
+.not-only {
+    background: url("../../images/95577108af837b8b441616746225b66e.png"), linear-gradient(to right, #5B483A 0%, #262425 100%);
+}
+
+.not-only__wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    box-sizing: border-box;
+    padding: 13em 2.7em 17.1em 2.7em;
+    margin: auto;
+    background: url("../../images/start-screen-puppy.png") no-repeat right 7% bottom;
+}
+
+.not-only__title {
+    width: 30%;
+    font-family: var(--font-georgia);
+    font-weight: 400;
+    color: var(--white);
+    font-size: var(--h1);
+    line-height: var(--line-height-h);
+    letter-spacing: 0.03em;
+    margin-bottom: 2.1%;
+}
+
+.not-only__description {
+    width: 39%;
+    color: var(--gray-1);
+    margin-bottom: 4.8%
+}
+
+.not-only__link {
+    font-family: var(--font-georgia);
+    font-weight: 400;
+    font-size: 110%;
+    line-height: 130%;
+    letter-spacing: 0.08em;
+    color: var(--dark-gray-3xl);
+    text-decoration: none;
+    background-color: var(--color-primary);
+    padding: 1em 2.6em;
+    box-sizing: border-box;
+    border: 1px solid var(--color-primary);
+    border-radius: 100px;
+    transition: background-color 1s;
+}
+
+.not-only__link:hover {
+    background-color: var(--color-primary-light);
+    transition: all 1s;
+}
+
+@media (max-width: 1083px) {
+    .not-only__wrapper {
+        align-items: center;
+        padding: 0.1em 2.7em 47.1em 2.7em;
+        background: url("../../images/start-screen-puppy-tablet.png") no-repeat right 15% bottom;
+    }
+
+    .not-only__title {
+        width: 67%;
+        margin-bottom: 27px;
+    }
+
+    .not-only__description {
+        width: 67%;
+        margin-bottom: 8.2%;
+    }
+}
+
+@media (max-width: 600px) {
+    .not-only__wrapper {
+        padding: 0.8em 1em 26em 0.9em;
+        background: url("../../images/start-screen-puppy-mobile.png") no-repeat right 16% bottom;
+    }
+
+    .not-only__title {
+        font-size: 174%;
+        width: 85%;
+        text-align: center;
+        line-height: 128%;
+        margin-bottom: 26px;
+    }
+
+    .not-only__description {
+        margin-bottom: 18.8%;
+        width: 100%;
+        text-align: center;
+    }
+}

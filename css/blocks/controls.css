@@ -1,0 +1,60 @@
+.controls {
+    position: relative;
+}
+
+.controls__button {
+    position: absolute;
+    box-sizing: border-box;
+    border: 2px solid var(--color-primary);
+    border-radius: 100px;
+    padding: 15px 17px;
+    color: var(--dark-gray-3xl);
+    background-color: var(--light-gray-bg);
+    font-weight: bolder;
+    bottom: 252px;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+.controls__button--next {
+    right: -1px;
+}
+
+.controls__button--prev {
+    left: -3px;
+}
+
+.controls__button:hover {
+    background-color: var(--color-primary);
+    transition: all 1s;
+}
+
+@media (max-width: 1083px) {
+    .controls__button {
+        bottom: 259px;
+        padding: 16px 17px;
+    }
+
+    .controls__button--next {
+        right: -9px;
+    }
+
+    .controls__button--prev {
+        left: -15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .controls__button {
+        bottom: -60px;
+        padding: 13px 17px 19px 17px;
+    }
+
+    .controls__button--next {
+        right: 53px;
+    }
+
+    .controls__button--prev {
+        left: 52px;
+    }
+}

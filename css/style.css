@@ -1,0 +1,21 @@
+@import "./global/fonts.css";
+@import "./global/variables.css";
+@import "./global/normalize.css";
+@import "./global/visualy-hidden.css";
+
+@import "./blocks/page.css";
+@import "./blocks/header.css";
+@import "./blocks/logo.css";
+@import "./blocks/nav.css";
+@import "./blocks/not-only.css";
+@import "./blocks/burger.css";
+@import "./blocks/about.css";
+@import "./blocks/our-friends.css";
+@import "./blocks/friends.css";
+@import "./blocks/controls.css";
+@import "./blocks/help.css";
+@import "./blocks/in-addition.css";
+@import "./blocks/pages.css";
+@import "./blocks/footer.css";
+@import "./blocks/popap.css";
+@import "./global/auxiliary.css";

@@ -1,0 +1,171 @@
+.footer {
+    background: url("../../images/95577108af837b8b441616746225b66e.png"), linear-gradient(to right, #5B483A 0%, #262425 100%);
+    padding-top: 1px;
+}
+
+.footer__wrapper {
+    display: flex;
+    max-width: 1280px;
+    box-sizing: border-box;
+    padding: 3.7em 2.7em 3em 2.8em;
+    margin: auto;
+    background: url("../../images/footer-puppy.png") left 96% bottom 2% no-repeat;
+}
+
+.footer__contacts {
+    width: 36.7%;
+}
+
+.footer__title {
+    font-size: var(--h2);
+    line-height: 135%;
+    letter-spacing: 0.07em;
+    color: var(--white);
+    font-family: var(--font-georgia);
+    font-weight: 400;
+    text-align: left;
+    width: 65%;
+    margin-top: 0%;
+    margin-bottom: 8%;
+}
+
+.footer__link {
+    font-family: var(--font-georgia);
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 130%;
+    line-height: 126%;
+    letter-spacing: 0.07em;
+}
+
+.footer__svg {
+    margin-top: 1.5%;
+    margin-left: -0.4%;
+    fill: var(--color-primary);
+    transition: fill 1s;
+}
+
+.footer__container {
+    display: flex;
+    gap: 4.5%;
+}
+
+.footer__text {
+    margin-top: 1.5%;
+    color: var(--color-primary);
+    transition: color 1s;
+}
+
+.footer__email {
+    margin-bottom: 4.9%;
+}
+
+.footer__text--adress {
+    margin-top: -1%;
+    margin-bottom: 6%;
+}
+
+.footer__svg--phone {
+    margin-top: 0.5%;
+}
+
+.footer__svg--pin {
+    margin-top: 0.5%;
+}
+
+.footer__link:hover .footer__text {
+    color: var(--gray-2);
+    transition: all 1s;
+}
+
+.footer__link:hover .footer__svg {
+    fill: var(--gray-2);
+    transition: all 1s;
+}
+
+@media (max-width: 1083px) {
+    .footer__wrapper {
+        padding: 1.95em 2.7em 24em 4.3em;
+        gap: 2.8%;
+        background: url(../../images/footer-puppy.png) left 50% bottom 0% no-repeat;
+    }
+
+    .footer__container {
+        gap: 6%;
+    }
+
+    .footer__contacts {
+        width: 50%;
+    }
+
+    .footer__title {
+        width: 90%;
+        letter-spacing: 0.08em;
+        margin-bottom: 11%;
+    }
+
+    .footer__email {
+        margin-bottom: 7.2%;
+    }
+
+    .footer__text--adress {
+        margin-top: -2%;
+        margin-bottom: 9%;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer__wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 1.95em 0.7em 19.6em 0.7em;
+        background: url(../../images/footer-puppy-mobile.png) left 50% bottom 0% no-repeat;
+    }
+
+    .footer__title {
+        font-size: 158%;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 12.8%;
+    }
+
+    .footer__contacts {
+        width: 100%;
+    }
+
+    .footer__email {
+        margin-bottom: 8.2%;
+    }
+
+    .footer__container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+    .footer__container {
+        gap: 0%;
+    }
+
+    .footer__contacts--commun {
+        margin-bottom: 24px;
+    }
+
+    .footer__title--location {
+        width: 90%;
+        margin: 0 auto 13%;
+    }
+
+    .footer__text--adress {
+        margin-top: 0%;
+        margin-bottom: 12%;
+    }
+
+    .footer__container--adress {
+        display: flex;
+        justify-content: flex-start;
+        gap: 7%;
+        width: 100%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,29 @@
+.header {
+    background:url("../../images/95577108af837b8b441616746225b66e.png"), linear-gradient(to right, #5B483A 0%, #262425 100%);
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    box-sizing:border-box;
+    max-width: 1280px;
+    margin: auto;
+    padding: 2.1em 2.7em;
+}
+
+.header--pets {
+    background: var(--white);
+}
+
+@media (max-width: 1083px) {
+    .header__wrapper {
+        padding: 2.1em 2em;
+    }
+}
+
+@media (max-width: 600px) {
+    .header__wrapper {
+        padding: 2.1em 1.3em;
+    }
+
+}

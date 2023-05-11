@@ -1,0 +1,191 @@
+.help__wrapper {
+    max-width: 1280px;
+    box-sizing: border-box;
+    padding: 3.5em 2.7em 1.8em 2.9em;
+    margin: auto;
+}
+
+.help__title {
+    font-size: var(--h2);
+    line-height: 136%;
+    letter-spacing: 0.08em;
+    color: var(--dark-gray-l);
+    font-family: var(--font-georgia);
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.help__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10%;
+    list-style-type: none;
+    padding: 0% 7%;
+}
+
+.help__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 107px;
+    margin-bottom: 6%;
+}
+
+.help__name {
+    font-family: var(--font-georgia);
+    font-weight: 400;
+    font-size: 130%;
+    line-height: 67%;
+    letter-spacing: 0.08em;
+    color: var(--dark-gray-3xl);
+}
+
+.help__item--vitamins {
+    padding-left: 8.2%;
+}
+
+.help__item--sleeping {
+    padding-right: 8.2%;
+}
+
+.help__svg--food {
+    width: 48px;
+    height: 60px;
+}
+
+.help__svg--transporation {
+    width: 61px;
+    height: 60px;
+}
+
+.help__svg--toys {
+    width: 60px;
+    height: 60px;
+}
+
+.help__svg--bowls {
+    width: 60px;
+    height: 57px;
+}
+
+.help__svg--shampoos {
+    width: 32px;
+    height: 60px;
+}
+
+.help__svg--vitamins {
+    width: 60px;
+    height: 55px;
+}
+
+.help__svg--medicines {
+    width: 60px;
+    height: 60px;
+}
+
+.help__svg--collars {
+    width: 60px;
+    height: 53px;
+}
+
+.help__svg--sleeping {
+    width: 57px;
+    height: 60px;
+}
+
+@media (max-width: 1083px) {
+    .help__list {
+        margin-top: 58px;
+        padding: 0% 0%;
+        gap: 0%;
+    }
+
+    .help__item {
+        width: calc(1/3*100% - (1 - 1/3)*6px);
+        margin-bottom: 9%;
+    }
+
+    .help__item--vitamins {
+        padding-left: 0%;
+    }
+
+    .help__item--sleeping {
+        padding-right: 0%;
+    }
+}
+
+@media (max-width: 600px) {
+    .help__title {
+        font-size: 158%;
+        text-align: center;
+        line-height: 136%;
+        letter-spacing: 0.09em;
+    }
+
+    .help__wrapper {
+        padding: 1.5em 1.2em 0em 1.2em;
+    }
+
+    .help__list {
+        margin-top: 41px;
+        margin-bottom: 10px;
+    }
+
+    .help__item {
+        width: calc(1/2*100% - (1 - 1/4)*23px);
+        margin-bottom: 12.1%;
+        height: 83px;
+    }
+
+    .help__svg--food {
+        width: 40px;
+        height: 50px;
+    }
+
+    .help__svg--transporation {
+        width: 50px;
+        height: 50px;
+    }
+
+    .help__svg--toys {
+        width: 50px;
+        height: 50px;
+    }
+
+    .help__svg--bowls {
+        width: 50px;
+        height: 47px;
+    }
+
+    .help__svg--shampoos {
+        width: 26px;
+        height: 50px;
+    }
+
+    .help__svg--vitamins {
+        width: 50px;
+        height: 45px;
+    }
+
+    .help__svg--medicines {
+        width: 50px;
+        height: 50px;
+    }
+
+    .help__svg--collars {
+        width: 50px;
+        height: 43px;
+    }
+
+    .help__svg--sleeping {
+        width: 47px;
+        height: 50px;
+    }
+
+    .help__name {
+        font-size: 96%;
+    }
+}

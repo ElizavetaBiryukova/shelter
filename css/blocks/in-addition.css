@@ -1,0 +1,151 @@
+.in-addition {
+    background-color: var(--light-gray-bg);
+}
+
+.in-addition__wrapper {
+    max-width: 1280px;
+    box-sizing: border-box;
+    padding: 5.4em 2.7em 5.85em 47.9em;
+    margin: auto;
+    background: url("../../images/donation-dog.png") no-repeat top 45% left 23.5%;
+}
+
+.in-addition__title {
+    font-size: var(--h2);
+    line-height: 135%;
+    letter-spacing: 0.08em;
+    color: var(--dark-gray-l);
+    font-family: var(--font-georgia);
+    font-weight: 400;
+    text-align: left;
+    margin: auto;
+}
+
+.in-addition__description {
+    letter-spacing: 0.06em;
+    color: var(--dark-gray-l);
+    font-family: var(--font-georgia);
+    font-weight: 400;
+    text-align: left;
+}
+
+.in-addition__card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    background-color: var(--color-primary);
+    box-sizing: border-box;
+    border: 1px solid var(--color-primary);
+    border-radius: 9px;
+    width: 67%;
+    padding: 2% 2.3% 1.7% 2.5%;
+    margin-bottom: 4%;
+    transition: background-color 1s;
+}
+
+.in-addition__card:hover {
+    background-color: var(--color-primary-light);
+    border: 1px solid var(--color-primary-light);
+    transition: all 1s;
+}
+
+.in-addition__svg {
+    fill: var(--dark-gray-3xl);
+    transition: all 1s;
+}
+
+.in-addition__card:hover .in-addition__svg {
+    fill: var(--gray-2);
+    transition: all 1s;
+}
+
+.in-addition__number {
+    font-size: var(--h3);
+    letter-spacing: 0.1em;
+    color: var(--dark-gray-l);
+    font-family: var(--font-georgia);
+    font-weight: 400;
+}
+
+.in-addition__addit {
+    font-style: italic;
+    color: var(--gray-2);
+    font-size: 79%;
+    letter-spacing: 0.006em;
+    line-height: 148%;
+    width: 70%;
+}
+
+.in-addition__link {
+    text-decoration: none;
+}
+
+@media (max-width: 1083px) {
+    .in-addition__wrapper {
+        padding: 5.4em 2.7em 27.3em 12.9em;
+        background: url(../../images/donation-dog.png) no-repeat top 81% left 49.5%;
+    }
+
+    .in-addition__card {
+        width: 65.5%;
+    }
+}
+
+@media (max-width: 742px) {
+    .in-addition__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5.4em 2.7em 27.3em 2.7em;
+    }
+
+    .in-addition__addit {
+        width: 100%;
+    }
+
+    .in-addition__card {
+        min-width: 343px;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .in-addition__title {
+        font-size: 158%;
+        text-align: center;
+        line-height: 136%;
+        letter-spacing: 0.09em;
+    }
+
+    .in-addition__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2.9em 1em 13.8em 1em;
+        background: url(../../images/donation-dog-mobile.png) no-repeat top 90% left 49.5%;
+    }
+
+    .in-addition__description {
+        margin-top: 1.2em;
+        margin-bottom: 1.3em;
+        font-size: 100%;
+        letter-spacing: normal;
+        line-height: 24px;
+    }
+
+    .in-addition__card {
+        padding: 3% 0.3% 2.8% 4.5%;
+        min-width: 100%;
+        width: 279px;
+    }
+
+    .in-addition__number {
+        font-size: 95%;
+    }
+
+    .in-addition__addit {
+        width: 96%;
+        text-align: justify;
+        line-height: 151%;
+    }
+}

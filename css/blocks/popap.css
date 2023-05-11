@@ -1,0 +1,213 @@
+.popap__wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(41, 41, 41, 0.6);
+}
+
+.popap__flex {
+    display: flex;
+    width: 952px;
+    height: 552px;
+    margin: auto;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 6px;
+}
+
+.popap {
+    display: flex;
+    gap: 29px;
+    background: var(--white);
+    width: 900px;
+    height: 500px;
+    border: 1px solid var(--white);
+    box-sizing: border-box;
+    border-radius: 9px;
+    box-shadow: 0px 0px 35px rgba(13, 13, 13, 0.04);
+}
+
+.popap__img {
+    box-sizing: border-box;
+    border: 1px solid var(--white);
+    border-radius: 9px;
+    width: 500px;
+    height: 498px;
+
+}
+
+.popap__description {
+    padding-top: 18px;
+}
+
+.popap__name {
+    font-family: var(--font-georgia);
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    margin-bottom: 9px;
+}
+
+.popap__types {
+    font-family: var(--font-georgia);
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    margin-top: 0px;
+    margin-bottom: 39px;
+}
+
+.popap__text {
+    font-family: var(--font-georgia);
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: 0.06em;
+    margin-top: 0px;
+    margin-bottom: 39px;
+    width: 350px;
+}
+
+.popap__list {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    font-family: var(--font-georgia);
+    font-size: 15px;
+    line-height: 17px;
+    letter-spacing: 0.06em;
+    padding-left: 14px;
+}
+
+.popap__bold {
+    font-weight: 900;
+    color: var(--dark-gray-l);
+}
+
+.popap__item {
+    color: var(--color-primary);
+}
+
+.popap__item span {
+    color: var(--dark-gray-l);
+}
+
+.popap__control {
+    position: relative;
+    width: 23px;
+}
+
+.popap__button {
+    position: absolute;
+    font-size: 24px;
+    box-sizing: border-box;
+    border: 2px solid var(--color-primary);
+    border-radius: 100px;
+    padding: 12px 19px;
+    color: black;
+    background-color: rgba(41, 41, 41, 0);
+    font-weight: bolder;
+    bottom: 497px;
+    left: -12px;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+.popap__button:hover {
+    background-color: var(--color-primary);
+}
+
+@media (max-width: 1083px) {
+    .popap__flex {
+        width: 682px;
+        height: 402px;
+        padding-right: 6px;
+    }
+
+    .popap {
+        width: 630px;
+        height: 351px;
+        gap: 9px;
+    }
+
+    .popap__img {
+        width: 350px;
+        height: 350px;
+
+    }
+
+    .popap__button {
+        bottom: 349px;
+        left: -10px;
+    }
+
+    .popap__name {
+        margin-bottom: 9px;
+        margin-top: 9px;
+
+    }
+
+    .popap__description {
+        padding-top: 0px;
+    }
+
+    .popap__types {
+        margin-bottom: 23px;
+    }
+
+    .popap__text {
+        font-size: 13px;
+        line-height: 14px;
+        width: 261px;
+        margin-bottom: 17px;
+
+    }
+
+    .popap__list {
+        gap: 7px;
+    }
+
+}
+
+@media (max-width: 742px) {
+    .popap__img {
+        display: none;
+
+    }
+
+    .popap__flex {
+        width: 300px;
+        height: 393px;
+
+    }
+
+    .popap {
+        width: 246px;
+        height: 341px;
+        gap: 0px;
+        justify-content: center;
+    }
+
+    .popap__button {
+        bottom: 341px;
+        left: -31px;
+    }
+
+    .popap__name {
+        text-align: center;
+        margin-left: 5px;
+    }
+
+    .popap__types {
+        text-align: center;
+    }
+
+    .popap__text {
+        width: 220px;
+    }
+
+}

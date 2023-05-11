@@ -1,0 +1,28 @@
+:root {
+    --font-arial: "Arial", serif;
+    --font-georgia: "Georgia", serif;
+
+    --white: #FFFFFF;
+    --light-gray-bg: #F6F6F6;
+    --light-gray: #FAFAFA;
+    --gray-1: #CDCDCD;
+    --gray-2: #B2B2B2;
+    --dark-gray-l: #545454;
+    --dark-gray-xl: #4C4C4C;
+    --dark-gray-2xl: #444444;
+    --dark-gray-3xl: #292929;
+    --color-primary: #F1CDB3;
+    --color-primary-light: #FDDCC4;
+
+    --paragraph-l: 93.75%;
+    --line-height-paragraph-l: 160%;
+    --paragraph-s: 75%;
+    --line-height-paragraph-s: 150%;
+    --paragraph-mobile-menu: 200%;
+    --h1: 277%;
+    --line-height-h: 138%;
+    --h2: 226%;
+    --h2-mobile: 156.25%;
+    --h3: 125%;
+    --line-height-h3: 115%;
+}

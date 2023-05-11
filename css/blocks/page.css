@@ -1,0 +1,14 @@
+.page {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+.page__body {
+    min-height: 100%;
+    margin: 0;
+    color: var(--dark-gray-l);
+    font-family: var(--font-arial);
+    font-size: var(--paragraph-l);
+    font-weight: 400;
+    line-height: var(--line-height-paragraph-l);
+}

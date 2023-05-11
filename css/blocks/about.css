@@ -1,0 +1,74 @@
+.about__wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    box-sizing: border-box;
+    padding: 4.4em 14.7em 6.9em 42.4em;
+    margin: auto;
+    background: url("../../images/about-pets.png") no-repeat right 78% bottom 55%;
+}
+
+.about__title {
+    width: 100%;
+    font-size: var(--h2);
+    line-height: 136%;
+    letter-spacing: 0.08em;
+    font-family: var(--font-georgia);
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 9px;
+}
+
+.about__text {
+    width: 100%;
+    margin-bottom: 9px;
+}
+
+@media (max-width: 1083px) {
+    .about__wrapper {
+        padding: 3.5em 11.7em 38.5em 11.3em;
+        background: url("../../images/about-pets.png") no-repeat right 50% bottom 15.5%;
+    }
+
+    .about__title {
+        line-height: 135%;
+    }
+}
+
+@media (max-width: 1270px) {
+    .about__title {
+        width: 100%;
+
+    }
+
+    .about__text {
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .about__title {
+        font-size: 158%;
+        text-align: center;
+        line-height: 136%;
+        letter-spacing: 0.09em;
+        margin-bottom: 8px;
+    }
+
+    .about__wrapper {
+        padding: 1.6em 1.6em 28.4em 1.6em;
+        background: url(../../images/about-pets-mobile.png) no-repeat right 50% bottom 6.5%;
+    }
+
+    .about__text {
+        font-size: 101%;
+        letter-spacing: normal;
+        line-height: 24px;
+        text-align: justify;
+    }
+
+    .about__text--first {
+        margin-bottom: 8px;
+    }
+}
